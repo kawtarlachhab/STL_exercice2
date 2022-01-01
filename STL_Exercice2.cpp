@@ -8,13 +8,13 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-string capitalizeString(string s)
+/*string capitalizeString(string s)
 {
 
 	transform(s.begin(), s.end(), s.begin(),
 		[](unsigned char c) { return toupper(c); });
 	return s;
-}
+}*/
 void replace(string& s)
 {
 	int i;
